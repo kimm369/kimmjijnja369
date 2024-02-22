@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}  gallery page {% endblock %}
+ {% block header %}
+     <p>
+     This is our gallery
+     </p>
+
+ {% endblock %}
+  {% block content %}
+   <img src="{% static 'images/index1.jpeg' %}" alt="">
+   <img src="{%static 'images/juice.jpeg' %}" alt="">
+   <img src="{%static 'images/index.jpeg' %}" alt="">
+  {% endblock %}
